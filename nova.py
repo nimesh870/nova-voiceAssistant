@@ -4,7 +4,7 @@ import webbrowser
 from playMusic import music
 import requests
 
-# recognizer = speechR.Recognizer() #creating recognizer instance from class Recognizer
+
 recog = speechR.Recognizer() # creating new instance of recognizer for audio
 engine = pyttsx3.init()
 newsAPI = "ae78e1d98ec84948ac6041e6be73760c" #please don't use this api key
