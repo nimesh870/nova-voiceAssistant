@@ -12,6 +12,7 @@ newsAPI = "ae78e1d98ec84948ac6041e6be73760c" #please don't use this api key
  
 def speakText(text):
     engine.say(text) # adds the text to the queue
+
     engine.runAndWait() # processes the text to speech from queue and plays it
     
 def workWithCommand(openCmd):
