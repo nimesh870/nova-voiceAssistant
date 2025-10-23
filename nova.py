@@ -175,7 +175,7 @@ if __name__ == "__main__":
             command = recog.recognize_google(audio) #converts speech to text
             print(command)
             
-            # check if the word "jarvis" exists in the recognized text
+            # check if the word "nova" exists in the recognized text
             if(command.lower() == "nova"):
                 print("Yes sir, how can I help")
                 
