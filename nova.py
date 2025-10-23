@@ -6,8 +6,7 @@ import requests
 
 
 recog = speechR.Recognizer() # creating new instance of recognizer for audio
-engine = pyttsx3.init()
-newsAPI = "ae78e1d98ec84948ac6041e6be73760c" #please don't use this api key
+engine = pyttsx3.init()
 
  
 def speakText(text):
